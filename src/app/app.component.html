@@ -1,0 +1,7 @@
+<input type="button" (click)="stopLeaking()" value="Stop" />
+
+@for(task of tasks; track task.id) {
+<div>
+  <hello name="{{ task.name }}-{{ task.id }}"></hello>
+</div>
+}
